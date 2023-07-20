@@ -1,0 +1,32 @@
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.csproj.AssemblyReference.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\MainWindow.g.cs
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\App.g.cs
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4_MarkupCompile.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4_MarkupCompile.lref
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\bin\Debug\test4.exe.config
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\bin\Debug\test4.exe
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\bin\Debug\test4.pdb
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\MainWindow.baml
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.g.resources
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.Properties.Resources.resources
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.csproj.GenerateResource.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.csproj.CoreCompileInputs.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.exe
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4\test4\obj\Debug\test4.pdb
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.csproj.AssemblyReference.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\MainWindow.g.cs
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\App.g.cs
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4_MarkupCompile.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4_MarkupCompile.lref
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.exe
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.pdb
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\bin\Debug\test4.exe.config
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\bin\Debug\test4.exe
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\bin\Debug\test4.pdb
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\MainWindow.baml
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.g.resources
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.Properties.Resources.resources
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.csproj.GenerateResource.cache
+C:\Users\Amachuarori\source\repos\УрокиWPF\test4 — копия\test4\obj\Debug\test4.csproj.CoreCompileInputs.cache
