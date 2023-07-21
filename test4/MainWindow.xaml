@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="500" ResizeMode="CanResize">
+        Title="MainWindow" Height="300" Width="500" ResizeMode="NoResize">
     <Window.Resources>
         <Style TargetType="StackPanel">
             <Setter Property="Background" Value="Bisque"/>
