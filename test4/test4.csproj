@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="MyToolTip.cs" />
     <Compile Include="StackPan.cs" />
+    <Compile Include="TaskCheck.cs" />
     <Compile Include="VM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

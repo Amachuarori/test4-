@@ -16,23 +16,27 @@ namespace test4
     {
         private string[,] parts = 
         {
-            { "code review"  , "2 hours",  "Jhon", "50" },
-                {"team building"  ,  "3 hours", "Jack", "100" },
-                {"break"  ,  "1 hour", "Kate", "20" },
-                {"write some code"  ,  "5 hours", "Ann" , "200" },
-                {"code"  ,  "6 hours", "Joe" , "80" },
-                { "review"  , "2 min",  "pablo", "20" },
-                {"building"  ,  "30 mins", "hue", "40" },
-                {"Dancing"  ,  "45 mins", "Mol", "80" },
-                {"write "  ,  "25 mins", "Lam" , "10" },
-                {"write some "  ,  "30 mins", "jim" , "80" },
+            { "code review"  , "2 hours",  "Jhon" },
+                {"team building"  ,  "3 hours", "Jack" },
+                {"break"  ,  "1 hour", "Kate"},
+                {"write some code"  ,  "5 hours", "Ann" },
+                {"code"  ,  "6 hours", "Joe"},
+                { "review"  , "2 min",  "pablo" },
+                {"building"  ,  "30 mins", "hue" },
+                {"Dancing"  ,  "45 mins", "Mol" },
+                {"write "  ,  "25 mins", "Lam" },
+                {"write some "  ,  "30 mins", "jim"  },
         }; 
         private StackPan selectedPan;
         public ObservableCollection<StackPan> Tasks;
         public WrapPanel wrapPan;
         Random rnd;
+        public int taskCompletion;
         List<string> list;
         private int counter = 0;
+        private int _pending = 0;
+        private int _jeopardy = 0;
+        private int _completed = 0;
 
         public StackPanel SelectedPan
         {
@@ -41,11 +45,7 @@ namespace test4
 
         public VM(int num)
         {
-            Tasks = new ObservableCollection<StackPan>();
-            list = new List<string>();
             Recursion(7);
-
-
             wrapPan = new WrapPanel();
             for (int i = 0; i < Tasks.Count; i++)
             {
@@ -57,20 +57,55 @@ namespace test4
         {
             if(counter < num)
             {
+                Tasks = new ObservableCollection<StackPan>();
+                list = new List<string>();
                 rnd = new Random();
-                for (int i = 0; i < rnd.Next(6, 10); i++)
+                for (int i = 0; i < rnd.Next(20, 100); i++)
                 {
                     int column = rnd.Next(0, parts.GetLength(0) - 1);
                     for (int j = 0; j < parts.GetLength(1); j++)
                     {
                         list.Add(parts[column, j]);
                     }
-                    Tasks.Add(new StackPan(list));
+                    taskCompletion = rnd.Next(0, 3);
+                    CheckTask(taskCompletion);
+                    Tasks.Add(new StackPan(list, rnd.Next(10, 100), taskCompletion));
                     list.Clear();
                 }
                 counter++;
                 Recursion(num);
             }
+        }
+
+        public void CheckTask(int num)
+        {
+            if(num == 0)
+            {
+                _pending += 1;
+            }
+            else if(num == 1)
+            {
+                _completed += 1;
+            }
+            else if(num == 2)
+            {
+                _jeopardy += 1;
+            }
+        }
+
+        public int Pending
+        {
+            get { return _pending; }
+        }
+
+        public int Completed
+        {
+            get { return _completed; }
+        }
+
+        public int Jeopardy
+        {
+            get { return _jeopardy; }
         }
 
 

@@ -19,14 +19,34 @@
     
     <Grid Background="Gray">
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="250"/>
         </Grid.RowDefinitions>
 
+        <StackPanel x:Name="CheckPanel" Grid.Row="1" Background="LightGray">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
 
-        <ScrollViewer  x:Name="myScroll"  Grid.Row="1" Background="DarkGray"
+                <TextBlock Grid.Column="0" x:Name="Pending" Text="0"/>
+                <TextBlock Grid.Column="1" Text="Pending" />
+                <TextBlock Grid.Column="2" x:Name="Jeopardy" Text="0"/>
+                <TextBlock Grid.Column="3" Text="Jeopardy"/>
+                <TextBlock Grid.Column="4" x:Name="Completed" Text="0"/>
+                <TextBlock Grid.Column="5" Text="Completed"/>
+            </Grid>
+        </StackPanel>
+
+        <ScrollViewer  x:Name="myScroll"  Grid.Row="2" Background="DarkGray"
                        HorizontalScrollBarVisibility="Visible" 
-                       VerticalScrollBarVisibility="Disabled">
+                       VerticalScrollBarVisibility="Auto">
             <Grid Name="myGrid">
                 
             </Grid>
