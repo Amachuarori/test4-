@@ -5,29 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="500" ResizeMode="CanResize">
+        Title="MainWindow" Height="300" Width="500" ResizeMode="CanResize">
     <Window.Resources>
         <Style TargetType="StackPanel">
             <Setter Property="Background" Value="Bisque"/>
         </Style>
-        
-        
-        
-        
-        
     </Window.Resources>
     
     <Grid Background="Gray">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            
             <RowDefinition Height="20"/>
-            <RowDefinition Height="250"/>
+            <RowDefinition Height="*"/>
+            
         </Grid.RowDefinitions>
 
-        <StackPanel x:Name="CheckPanel" Grid.Row="1" Background="LightGray">
+        <StackPanel x:Name="CheckPanel" Grid.Row="0" Background="LightGray">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="30"/>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="20"/>
                     <ColumnDefinition Width="100"/>
@@ -35,7 +31,7 @@
                     <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0" x:Name="Pending" Text="0"/>
+                <TextBlock Grid.Column="0" x:Name="Pending" Text="0" Margin="10 0 0 0"/>
                 <TextBlock Grid.Column="1" Text="Pending" />
                 <TextBlock Grid.Column="2" x:Name="Jeopardy" Text="0"/>
                 <TextBlock Grid.Column="3" Text="Jeopardy"/>
@@ -44,7 +40,7 @@
             </Grid>
         </StackPanel>
 
-        <ScrollViewer  x:Name="myScroll"  Grid.Row="2" Background="DarkGray"
+        <ScrollViewer  x:Name="myScroll"  Grid.Row="1" Background="DarkGray"
                        HorizontalScrollBarVisibility="Visible" 
                        VerticalScrollBarVisibility="Auto">
             <Grid Name="myGrid">
@@ -53,5 +49,7 @@
         </ScrollViewer>
 
         
+
+
     </Grid>
 </Window>
